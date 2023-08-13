@@ -1,5 +1,6 @@
 'use strict';
 
+require('dotenv').config();
 require('./services/Server');
 
 const WireGuard = require('./services/WireGuard');
